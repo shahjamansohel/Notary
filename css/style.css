@@ -1,0 +1,92 @@
+/*header start*/
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	padding: 15px 0;
+}
+.container {
+	width: 75%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 20%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menue {
+	width: 78%;
+	float: right;
+	margin-top: 10px;
+}
+.menue ul{
+	float: right;
+}
+.menue ul li{
+	float: left;
+	list-style: none;
+}
+.menue ul li a{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #828282;
+	text-decoration: none;
+	padding: 0px 10px;
+	display: inline-block;
+	transition: .3s;
+}
+.menue ul li:last-child a{
+	padding-right: 0;
+}
+.menue ul li a:hover{
+	color: #BD233F;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/business.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-position: top center;
+}
+.b_content{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	width: 50%;
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-size: 51px;
+	color: white;
+	letter-spacing: 2px;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+.b_content p{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+.b_content button{
+	width: 217px;
+	height: 50px;
+	background-color: #BE2342;
+	border: none;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: white;
+	margin-top: 25px;
+	cursor: pointer;
+}
+/*banner end*/
